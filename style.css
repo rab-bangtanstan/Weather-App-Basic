@@ -27,7 +27,8 @@
 
 input {
     border: none;
-    background: #1e1e1e;
+/*     background: #1e1e1e; */
+      background: linear-gradient(to, #f2bd1a, #b54292,#9a0cc8);
     outline: none;
     color: #fff;
     padding: 0.5rem 2.5rem;
