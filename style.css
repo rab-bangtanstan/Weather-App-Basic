@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+ 
+    
 }
 
 .container {
@@ -13,6 +15,8 @@
   /* background: linear-gradient(to bottom, #1c2546, #453b90,#6b47a8); */
   /* background: linear-gradient(to bottom, #29233b, #3b285e,#4e396f); */
     color: #fff;
+  /* color: linear-gradient(to bottom, #ea902a, #ffce7a,#4e396f); */
+  
     padding: 2rem;
     width: 40%;
     margin: 4rem auto;
@@ -26,17 +30,29 @@
 }
 
 input {
-    border: none;
-/*     background: #1e1e1e; */
-      background: linear-gradient(to, #f2bd1a, #b54292,#9a0cc8);
+    /* border: none; */
+    /* background: #1e1e1e; */
+
+  /* background: linear-gradient(to left, #29233b, #1c2546,#453b90); */
+
+  background: linear-gradient(to, #f2bd1a, #b54292,#9a0cc8);
+  
+ 
+    /* background : linear-gradient(to 
+    right,#ea902a,#ffce7a,#4e396f); */
     outline: none;
-    color: #fff;
+  color:#fff;
+    /* color: #000000; */
     padding: 0.5rem 2.5rem;
-    border-radius: 5px;
+    border-radius: 20px;
+
 }
+
 
 input::placeholder {
     color: #fff;
+  /* color:#29233b; */ */
+  /* color:#000; */
 }
 
 .weather__search {
@@ -49,6 +65,7 @@ input::placeholder {
     top: 10px;
     font-size: 15px;
     color: #fff;
+  /* color:#000; */
 }
 
 .weather__units {
@@ -82,6 +99,7 @@ input::placeholder {
 
 .weather__icon img {
     width: 100px;
+  
 }
 
 .weather__temperature {
@@ -108,7 +126,7 @@ input::placeholder {
 .weather__card {
     display: flex;
     align-items: center;
-    background: #1e1e1e;
+    /* background: #1e1e1e; */
     padding: 1rem;
     border-radius: 10px;
 }
