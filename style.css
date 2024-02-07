@@ -10,8 +10,8 @@
 }
 
 .container {
-    background: #171717;
-/*   background: linear-gradient(to bottom, #29233b, #1c2546,#453b90); */
+    /* background: #171717; */
+  background: linear-gradient(to bottom, #29233b, #1c2546,#453b90);
   /* background: linear-gradient(to bottom, #1c2546, #453b90,#6b47a8); */
   /* background: linear-gradient(to bottom, #29233b, #3b285e,#4e396f); */
     color: #fff;
