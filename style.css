@@ -126,7 +126,7 @@ input::placeholder {
 .weather__card {
     display: flex;
     align-items: center;
-    /* background: #1e1e1e; */
+    background: #1e1e1e;
     padding: 1rem;
     border-radius: 10px;
 }
